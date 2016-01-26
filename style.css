@@ -1,0 +1,57 @@
+
+
+.nav ul {
+	list-style-type: none;
+	margin: 8;
+	padding-right: 10;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	
+}
+
+.nav li {
+	display: inline;
+	float: right;
+	padding: 15px;
+	
+	
+}
+
+.nav a {
+	display: block;
+	text-decoration: none;
+	color: #222;
+
+}
+
+.applogo img {
+	
+	height: 25px;
+	width: 25px;
+	
+
+}
+
+.login {
+	
+	border: 1px solid #4285F4;
+	background-color: #4285F4;
+	border-radius: 2px;
+	width: 45px;
+	height: 1px;
+
+	
+}
+
+.login a {
+	
+	color: white;
+	font-weight: bold;
+}
+
+
+	
+
+
+
+
