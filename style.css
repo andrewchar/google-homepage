@@ -1,4 +1,6 @@
-
+.nav {
+	height: 150px;
+}
 
 .nav ul {
 	display: inline-block;
@@ -6,22 +8,16 @@
 	font-family: arial,sans-serif;
 	font-size: 13px;
 	float: right;
-	
 }
 
 .nav li {
 	float: right;
 	margin: 0px 10px;
-	
-	
-	
 }
 
 .nav a {
 	text-decoration: none;
 	color: #222;
-
-
 }
 
 .applogo img {
@@ -30,10 +26,6 @@
 	width: 25px;
 	position: relative;
 	top: -5px;
-	
-
-	
-
 }
 
 .login {
@@ -44,9 +36,6 @@
 	position: relative;
 	padding: 7px 13px;
 	top: -7px;
-
-
-	
 }
 
 .login a {
@@ -60,6 +49,39 @@
 
 
 
+
+
+.mainlogo a img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.searchbar input {
+	display: block;
+	width: 570px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #4285F4;
+}
+
+.searchbutton button {
+	display: block;
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    padding: 0 16px; 
+    min-width: 54px;
+    min-height: 33px;
+    margin: 0 auto;
+    
+}
 
 	
 
