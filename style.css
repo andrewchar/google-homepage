@@ -1,5 +1,7 @@
 .nav {
-	height: 165px;
+	height: 155px;
+	margin-top: 10px;
+	margin-right: 15px;
 }
 
 .nav ul {
@@ -34,7 +36,7 @@
 	background-color: #4285F4;
 	border-radius: 2px;
 	position: relative;
-	padding: 7px 13px;
+	padding: 7px 13px 6px 12px;
 	top: -8px;
 }
 
@@ -49,13 +51,19 @@
 
 
 
-
+.mainlogo {
+	text-align: center;
+}
 
 .mainlogo a img {
-	display: block;
+	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 348px;
+	height: 145px;
 }
+
+
 
 .searchbar input {
 	display: block;
@@ -82,6 +90,13 @@
 	
 }
 
+.searchbar img {
+	
+	background-size: 24px 24px;
+	height: 23px;
+	width: 17px;
+}
+
 
 .searchbutton  {
 	text-align: center;
@@ -103,6 +118,11 @@
     margin: 32px 2px;
 }
 
+.searchbutton button:hover {
+	border: 1px solid #D4D4D4;
+	color: black;
+}
+
 .french {
 	text-align: center;
 	font-family: arial,sans-serif;
@@ -117,9 +137,64 @@
 	text-decoration: underline;
 }
 
+.footer {
+	bottom: 0%;
+    position: fixed;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;   
+    width: 100%;
+    margin-left: -8px;
+    padding: 0px;
+    line-height: 6px;
+
+	
+	
+	
+}
+
+.lfooter {
+	float: left;
+	margin-left: -22px;
+	margin-bottom: 2px;
 
 	
 
 
+} 
 
+.rfooter {
+	float: right;
+	margin-right: 18px;
+	margin-bottom: 2px;
+}
+
+.footer ul {
+		list-style-type: none;
+		
+		
+
+}
+
+.footer li {
+	display: inline-block;
+	padding: 0px 13px;
+	
+	
+}
+
+.footer li:hover {
+	text-decoration: underline;
+}
+
+
+
+.footer a {
+	text-decoration: none;
+	font-size: 13px;
+	font-family: arial,sans-serif;
+	color: #666;
+	
+}
+
+	
 
