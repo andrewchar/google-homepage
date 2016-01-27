@@ -1,5 +1,5 @@
 .nav {
-	height: 150px;
+	height: 165px;
 }
 
 .nav ul {
@@ -12,12 +12,12 @@
 
 .nav li {
 	float: right;
-	margin: 0px 10px;
+	margin: 0px 8px;
 }
 
 .nav a {
 	text-decoration: none;
-	color: #222;
+	color: #4C4C4C;
 }
 
 .applogo img {
@@ -35,7 +35,7 @@
 	border-radius: 2px;
 	position: relative;
 	padding: 7px 13px;
-	top: -7px;
+	top: -8px;
 }
 
 .login a {
@@ -60,14 +60,36 @@
 .searchbar input {
 	display: block;
 	width: 570px;
-	height: 35px;
+	height: 29px;
 	margin-left: auto;
 	margin-right: auto;
-	border: 1px solid #4285F4;
+	margin-top: 3px;
+	border: 1px solid #D4D4D4;
+	padding: 4px 8px;
+	outline-style: none;
+	font-size: 17px;
 }
 
+.searchbar input:hover {
+	border: 1px solid #A4A4A4;
+	width: 570px;
+	
+}
+
+.searchbar input:focus {
+	border: 1px solid #4285F4;
+	
+	
+}
+
+
+.searchbutton  {
+	text-align: center;
+
+}
+
+
 .searchbutton button {
-	display: block;
 	background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 2px;
@@ -75,13 +97,26 @@
     font-family: arial,sans-serif;
     font-size: 13px;
     font-weight: bold;
-    margin: 11px 4px;
-    padding: 0 16px; 
+    padding: 6px 16px; 
     min-width: 54px;
-    min-height: 33px;
-    margin: 0 auto;
-    
+    min-height: 35px;
+    margin: 32px 2px;
 }
+
+.french {
+	text-align: center;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+}
+
+.french a {
+	text-decoration: none;
+}
+
+.french a:hover {
+	text-decoration: underline;
+}
+
 
 	
 
